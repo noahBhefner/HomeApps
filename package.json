@@ -1,0 +1,28 @@
+{
+  "name": "homeapps",
+  "version": "1.0.0",
+  "description": "web apps built for home use",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/noahBhefner/HomeApps.git"
+  },
+  "keywords": [
+    "budget"
+  ],
+  "author": "Noah Hefner",
+  "license": "GNU",
+  "bugs": {
+    "url": "https://github.com/noahBhefner/HomeApps/issues"
+  },
+  "homepage": "https://github.com/noahBhefner/HomeApps#readme",
+  "devDependencies": {
+    "typescript": "^4.5.5"
+  },
+  "dependencies": {
+    "@progress/kendo-ui": "^2022.1.119"
+  }
+}
