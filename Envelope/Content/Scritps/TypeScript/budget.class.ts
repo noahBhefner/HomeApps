@@ -1,7 +1,7 @@
 import { IEnvelope, ITransaction, IFixedEnvelope, IVariableEnvelope, ISummary } from "./all.interface";
 import { Helpers } from "./helper.class";
 
-export class newBudget {
+export class Budget {
     private _transactions: (ITransaction | undefined)[] = [];
     private _envelopes: IEnvelope[] = [];
     private _envelopeNames: string[] = [];

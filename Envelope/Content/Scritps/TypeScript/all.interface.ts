@@ -29,3 +29,19 @@ export interface ISummary {
   transactions: (ITransaction | undefined)[];
   notes: string[];
 }
+
+export interface IModel {
+
+}
+
+export interface IView {
+  initDomElements(): void;
+  getDomElements(): any;
+}
+
+export interface IController {
+  model: IModel;
+  view: IView;
+  dom: any;
+  init(): void;
+}
