@@ -1,7 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.newBudget = void 0;
-//import { FixedEnvelope, VariableEnvelope } from "./envelope.class";
 var helper_class_1 = require("./helper.class");
 var newBudget = /** @class */ (function () {
     function newBudget(name, envelopes, transactions) {

@@ -1,5 +1,4 @@
 import { IEnvelope, ITransaction, IFixedEnvelope, IVariableEnvelope, ISummary } from "./all.interface";
-//import { FixedEnvelope, VariableEnvelope } from "./envelope.class";
 import { Helpers } from "./helper.class";
 
 export class newBudget {

@@ -8,5 +8,5 @@
         "alwaysStrict": true,
         "outDir": "../",
     },
-    "files": ["budget.class.ts"]
+    "files": ["budget.class.ts", "envelope.class.ts", "transaction.class.ts"]
 }
